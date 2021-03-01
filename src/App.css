@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 65.2%;
+}
+
+body {
+  overflow-x: hidden;
+  font-size: 1.5rem;
+  color: #5f6368;
+}
+
+h1,
+h2 {
+  font-size: 3.5rem;
+  font-weight: 500;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  color: #000;
+}
+
+button {
+  background: linear-gradient(to right, #f74620, #df1b5d);
+  color: #fff;
+  width: 100px;
+  height: 40px;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 5px;
+}
+
+a {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-right: 35px;
+  text-decoration: none;
+}
+
+.red-link {
+  color: #de3334;
+}
+
+.App {
+  text-align: center;
+}
+
+
+.container {
+  max-width: 90vw;
+  padding: 20px 0;
+  margin: auto;
+}
+
+.advert a{
+  text-decoration: underline;
+  margin-right: 0;
+}
+.fa-shopping-bag {
+  margin-right: 10px;
+}
+
+.advert {
+  background: #de3334;
+  text-align: center;
+  color: #fff;
+  max-height: 100px;
+  height: 80px;
+  padding: 10px 0;
+}
+
+.advert .advert-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.2rem;
+  padding-bottom: 5px;
+}
+
+.advert a {
+  color: #fff;
+}
+
+.header-section {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.header-div,
+.section-div {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 15px;
+}
+
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+
+.section {
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.section p {
+  padding-bottom: 1rem;
+}
+
+/* media query*/
+@media screen and (max-width: 1040px) {
+  .header-div,
+  .section-div {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .header-div,
+  .section-div {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+
+

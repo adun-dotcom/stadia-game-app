@@ -1,0 +1,42 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+ .responsive-logo{
+    display: none;
+}
+
+.responsive-logo img{
+    width: 50px;
+}
+
+
+@media screen and (max-width: 640px) {
+  .navbar-div {
+    position: relative;
+  }
+
+  .navbar-block-flex {
+    position: absolute;
+    top: 50px;
+    width: 500px;
+    left: -50px;
+  }
+
+  .responsive-logo{
+    display: block;
+}
+
+.visible-logo{
+    display: none;
+}
+
+}
