@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../Logo.svg'
 import './nav.css'
+import Button from '../Button'
 
 function Navbar() {
   return (
@@ -12,7 +13,7 @@ function Navbar() {
         />
       </div>
       <div className="visible-logo">
-        <img src={logo} alt=""/>
+        <img src={logo} alt="" />
       </div>
 
       <div className="navbar-div">
@@ -35,7 +36,7 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <button type="button">Try now</button>
+            <Button clsName="nav-btn" text="Try now" />
           </li>
         </ul>
       </div>

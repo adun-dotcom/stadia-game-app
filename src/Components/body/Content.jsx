@@ -1,21 +1,16 @@
 import React from 'react'
-import ContentStructure from './contentStructure'
-import Data2 from './Data2'
+import ContentStructure from './ContentStructure'
 import LogoPro from '../LogoPro.svg'
-import Data1 from './Data1'
+import {Data1, Data2} from '../../data'
+import Button from '../Button'
 
 function Content() {
-  const styles = {
-    width: '350px',
-    height: '50px',
-    fontSize: '2rem',
-    marginBottom:'2rem'
-  }
+  
     return (
       <>
         {/* section1 */}
         <section className="section">
-          <img src={LogoPro} alt=""/>
+          <img src={LogoPro} alt="" />
           <h2>Play games in all their glory for free with Stadia Pro</h2>
           <p>
             Free games. More every month. Keep them as long as you’re a Stadia
@@ -29,7 +24,10 @@ function Content() {
         </section>
         {/* section 2 */}
         <section className="section">
-          <button style={styles}>Try Stadia Pro free for 1 month</button>
+          <Button
+            clsName="content-btn"
+            text="Try Stadia Pro free for 1 month"
+          />
           <p>
             <sup>1</sup>$9.99/mo after trial, cancel anytime.
           </p>

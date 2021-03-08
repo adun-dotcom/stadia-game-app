@@ -26,11 +26,21 @@ h2 {
 button {
   background: linear-gradient(to right, #f74620, #df1b5d);
   color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.nav-btn {
   width: 100px;
   height: 40px;
   font-size: 1.6rem;
-  border: none;
-  border-radius: 5px;
+}
+
+.content-btn {
+  width: 350px;
+  height: 50px;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 a {
@@ -49,14 +59,13 @@ a {
   text-align: center;
 }
 
-
 .container {
-  max-width: 90vw;
+  max-width: 90%;
   padding: 20px 0;
   margin: auto;
 }
 
-.advert a{
+.advert a {
   text-decoration: underline;
   margin-right: 0;
 }
@@ -92,11 +101,11 @@ a {
 
 .header-div,
 .section-div {
+  max-width: 100%;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 15px;
 }
-
 
 img {
   max-width: 100%;
@@ -115,20 +124,28 @@ img {
 }
 
 /* media query*/
-@media screen and (max-width: 1040px) {
-  .header-div,
-  .section-div {
-    grid-template-columns: repeat(4, 1fr);
+@media screen and (max-width: 940px) {
+  .container{
+    max-width: 100%;
+    padding: 5px ;
+    margin:0;
   }
-}
-
-@media screen and (max-width: 780px) {
   .header-div,
   .section-div {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
+@media screen and (max-width: 740px) {
+  .container{
+    max-width: 100%;
+    padding: 5px ;
+    margin:0;
+  }
 
-
-
+  .header-div,
+  .section-div {
+    grid-template-columns: 1fr;
+  }
+  
+}

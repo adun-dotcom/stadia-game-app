@@ -1,5 +1,5 @@
 import React from 'react'
-import HeaderStructure from './headerStructure'
+import HeaderStructure from './HeaderStructure'
 import HeaderArr from './headerArr'
 function Header() {
     return (
