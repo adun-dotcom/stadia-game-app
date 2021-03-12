@@ -1,8 +1,8 @@
 import React from 'react'
 import './App.css'
 import Navbar from './Components/Nav/Nav'
-import Advert from './Components/TopAdvert'
-import Header from './Components/Heading/Header'
+import Advert from './Components/TopNav'
+
 import Content from './Components/Body/Content'
 import Footer from './Components/Footer'
 
@@ -12,7 +12,7 @@ function App() {
       <Advert />
       <div className="container">
         <Navbar />
-        <Header />
+        
         <Content />
         <Footer />
       </div>

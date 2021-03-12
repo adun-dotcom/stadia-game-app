@@ -19,7 +19,7 @@ h2 {
   font-size: 3.5rem;
   font-weight: 500;
   padding-bottom: 2rem;
-  padding-top: 2rem;
+  padding-top: 1rem;
   color: #000;
 }
 
@@ -92,11 +92,6 @@ a {
 
 .advert a {
   color: #fff;
-}
-
-.header-section {
-  text-align: center;
-  margin: 50px 0;
 }
 
 .header-div,
